@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+.App{
+  background: #F5F7FB;
+  width: 95vh;
+  font-family: Poppins,Arial;
+  max-height: 98vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+
+}
+.title{
+  color: #4D5B9E;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.submit{
+  background: #4D5B9E;
+  margin-left: 10px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+/*question*/
+.question{
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+}
+.question h4{
+  display: inline;
+}
+/* options */
+.options{
+  display: flex;
+  gap: 20px;
+}
+.option{
+  outline: none;
+}
+/* .optionText:hover{
+  color: white;
+  background-color: rgb(249, 99, 249);
+} */
+/* loading */
+.loading{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  font-size: large;
+  background-color: #4D5B9E;
+  border-radius: 5px;
+  padding: 10px;
+}
+.starting{
+  background-color: beige;
+  padding: 20px;
+  border-radius: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #4D5B9E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.starting span{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.starting button{
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  font-size: large;
+  background-color: #4D5B9E;
+  border-radius: 5px;
+  padding: 5px;
+}
+.error{
+  color: #4D5B9E;
+}
