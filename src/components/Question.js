@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Option from "./Option"
 import { nanoid } from "nanoid";
 import React from "react";
 import { useEffect } from "react";
